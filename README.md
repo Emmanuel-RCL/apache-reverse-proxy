@@ -38,11 +38,11 @@ cd apache-reverse-proxy
 
 2. اجازه اجرا بدهید:
 ```bash
-chmod +x reverse_proxy_setup.sh
+chmod +x apache-reverse-proxy.sh
 ```
 3. اسکریپت را اجرا کنید:
 ```bash
-sudo bash reverse_proxy_setup.sh
+sudo bash apache-reverse-proxy.sh
 ```
 
 
