@@ -1,4 +1,4 @@
-# Apache Reverse Proxy Setup Script
+# اسکریپت راه‌اندازی پروکسی معکوس آپاچی
 
 این اسکریپت به شما امکان می‌دهد تا یک **Reverse Proxy با Apache** از سرور A به سرور B راه‌اندازی کنید.  
 اسکریپت دارای **منوی تعاملی** است و مسیرها و هدرهای کوکی را به درستی مدیریت می‌کند.
@@ -27,8 +27,16 @@
 
 ## نحوه اجرا
 
-1. دستور زیر را در خط فرمان اجرا کنید:
+- دستوررات زیر را در به ترتیب در خط فرمان اجرا کنید:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Emmanuel-RCL/apache-reverse-proxy/main/reverse_proxy_setup.sh | sudo bash
+wget https://raw.githubusercontent.com/Emmanuel-RCL/apache-reverse-proxy/main/apache-reverse-proxy.sh
+```
+
+```bash
+chmod +x apache-reverse-proxy.sh
+```
+
+```bash
+./apache-reverse-proxy.sh
 ```
