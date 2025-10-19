@@ -30,7 +30,7 @@
 1. اسکریپت را دانلود کنید یا از GitHub کلون کنید:
 
 ```bash
-git clone https://github.com/USERNAME/apache-reverse-proxy.git
+git clone https://github.com/Emmanuel-RCL/apache-reverse-proxy.git
 ```
 ```bash
 cd apache-reverse-proxy
