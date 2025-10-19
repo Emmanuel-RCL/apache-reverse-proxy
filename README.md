@@ -31,16 +31,19 @@
 
 ```bash
 git clone https://github.com/USERNAME/apache-reverse-proxy.git
+```
+```bash
 cd apache-reverse-proxy
+```
 
-اجازه اجرا بدهید:
+2. اجازه اجرا بدهید:
 ```bash
 chmod +x reverse_proxy_setup.sh
-
-اسکریپت را اجرا کنید:
+```
+3. اسکریپت را اجرا کنید:
 ```bash
 sudo bash reverse_proxy_setup.sh
-
+```
 
 
 
