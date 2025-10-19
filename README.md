@@ -27,24 +27,8 @@
 
 ## نحوه اجرا
 
-1. اسکریپت را دانلود کنید یا از GitHub کلون کنید:
+1. دستور زیر را در خط فرمان اجرا کنید:
 
 ```bash
-git clone https://github.com/Emmanuel-RCL/apache-reverse-proxy.git
+curl -sSL https://raw.githubusercontent.com/Emmanuel-RCL/apache-reverse-proxy/main/reverse_proxy_setup.sh | sudo bash
 ```
-```bash
-cd apache-reverse-proxy
-```
-
-2. اجازه اجرا بدهید:
-```bash
-chmod +x apache-reverse-proxy.sh
-```
-3. اسکریپت را اجرا کنید:
-```bash
-sudo bash apache-reverse-proxy.sh
-```
-
-
-
-
